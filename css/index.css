@@ -1,0 +1,282 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: #1D9DC1;
+    color: white;
+    font-family: Arvo, serif;
+    font-size: 20px;
+    letter-spacing: 1px;
+    line-height: 1.4em;
+}
+
+a, a:visited, a:link {
+    color: #fff;
+}
+
+img {
+    border: 0;
+}
+
+#news {
+    width: 100%;
+    background: #1D9DC1;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 10px 0 50px 0;
+    position: relative;
+    z-index: 100;
+    font-size: 40px;
+    -webkit-transform: skewY(-3deg) translateY(50px);
+    -moz-transform: skewY(-3deg) translateY(50px);
+    -ms-transform: skewY(-3deg) translateY(50px);
+    -o-transform: skewY(-3deg) translateY(50px);
+    transform: skewY(-3deg) translateY(50px);
+}
+
+#hero {
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+    height: 800px;
+    background: #1D9DC1;
+}
+
+#hero img {
+    position: absolute;
+    left: 50%;
+    top: 0;
+    margin-left: -1125px;
+}
+
+#header {
+    width: 100%;
+    background: #EA266E;
+    text-transform: uppercase;
+    text-align: center;
+    -webkit-transform: skewY(-3deg) translateY(-50px);
+    -moz-transform: skewY(-3deg) translateY(-50px);
+    -ms-transform: skewY(-3deg) translateY(-50px);
+    -o-transform: skewY(-3deg) translateY(-50px);
+    transform: skewY(-3deg) translateY(-50px);
+}
+
+#title {
+    font-family: "Exo", sans-serif;
+    font-size: 140px;
+    line-height: .9em;
+    padding: 100px 0;
+}
+
+#subhead {
+    padding-bottom: 100px;
+    font-size: 30px;
+    line-height: 1.4em;
+}
+
+#awards {
+    /* color: #000; */
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    /* background: #fff; */
+    padding-bottom: 25px;
+    margin-bottom: 200px;
+    padding-top: 25px;
+    /*
+    -webkit-transform: skewY(-3deg);
+    -moz-transform: skewY(-3deg);
+    -ms-transform: skewY(-3deg);
+    -o-transform: skewY(-3deg);
+    transform: skewY(-3deg);
+    */
+}
+
+.goty img {
+    vertical-align: middle;
+}
+
+.goty {
+    width: 900px;
+    height: 60px;
+    margin: 0 auto;
+    margin-top: 1em;
+    font-size: 1.62em;
+    text-transform: uppercase;
+    line-height: 60px;
+}
+
+.goty .left {
+    float: left;
+    padding-left: 25px;
+}
+
+.goty .right {
+    float: right;
+    padding-right: 25px;
+}
+
+.award-list {
+    margin: 0 auto;
+    width: 900px;
+}
+
+.award-list .section {
+    text-transform: uppercase;
+    font-size: 0.7em;
+    line-height: 3em;
+}
+
+.award {
+    float: left;
+    width: 250px;
+    height: 60px;
+    position: relative;
+    margin: 25px;
+    text-transform: uppercase;
+}
+
+.award .left {
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.award .right {
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.award .title {
+    font-weight: bold;
+}
+
+.award .festival {
+    font-size: .7em;
+    line-height: .8em;
+    letter-spacing: 0em;
+}
+
+.award .year {
+    font-size: .7em;
+    line-height: .8em;
+    letter-spacing: 0em;
+}
+
+.nominations {
+    opacity: 0.5;
+    font-size: 0.8em;
+    margin-left: 12px;
+    margin-top: 20px;
+}
+
+.nominations .award {
+    width: 195px;
+    height: 48px;
+    position: relative;
+    margin: 12px;
+}
+
+.selections {
+    text-transform: uppercase;
+    font-size: .8em;
+}
+
+#trailer {
+    clear: left;
+    /*padding-top: 200px;*/
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+}
+
+#trailer iframe {
+    display: block;
+    margin: 0 auto;
+}
+
+#description {
+    max-width: 800px;
+    margin: 0 auto;
+    padding-top: 200px;
+    padding-bottom: 200px;
+}
+
+#buy-info {
+    width: 800px;
+    margin: 0 auto;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+#buy {
+    width: 650px;
+    margin: 0 auto;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+#buy .buy-option {
+    width: 300px;
+    float: left;
+    text-align: center;
+}
+
+#humble-option {
+    margin-right: 50px;
+}
+
+#requirements {
+    
+}
+
+.humble-widget {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1000;
+}
+
+.humble-widget .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, .8);
+}
+
+.humble-widget iframe {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-left: -275px;
+    margin-top: -132px;
+}
+
+#footer {
+    background: #EA266E;
+    width: 100%;
+    margin: 0 auto;
+    padding: 200px 0;
+    text-align: center;
+    -webkit-transform: skewY(-3deg) translateY(50px);
+    -moz-transform: skewY(-3deg) translateY(50px);
+    -ms-transform: skewY(-3deg) translateY(50px);
+    -o-transform: skewY(-3deg) translateY(50px);
+    transform: skewY(-3deg) translateY(50px);
+}
+
+#see-also {
+    clear: left;
+    width: 800px;
+    margin: 0 auto;
+    padding-top: 200px;
+    text-align: center;
+    font-size: 30px;
+    text-transform: uppercase;
+}
+
+#news a { text-decoration: none; }
