@@ -17,6 +17,13 @@ img {
     border: 0;
 }
 
+#logo {
+    position: fixed;
+    text-align: center;
+    z-index: 400;
+}
+
+
 #news {
     width: 100%;
     background: #1D9DC1;
